@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var yargs = require('yargs/yargs')(process.argv.slice(2));
+var yargs = require('yargs');
 
 var argv = yargs.usage('This is my awesome program')
   .options({
